@@ -40,3 +40,8 @@ The first step is to download the repository 'Datasets' to the colab files. We c
 
 ## To unzip test_beg.zip
 `!unzip /content/Datasets/animal_data/test_beg.zip`
+
+```{python} {import pandas as pd
+import numpy as np
+train_labels = pd.read_csv("/content/Datasets/animal_data/Training_set_animals.csv")
+train_labels.head()}
