@@ -35,8 +35,8 @@ The first step is to download the repository 'Datasets' to the colab files. We c
 
 `!git clone 'https://github.com/dphi-official/Datasets/`
 
-`# To unzip train_beg.zip
-!unzip /content/Datasets/animal_data/train_beg.zip 
+## To unzip train_beg.zip
+`!unzip /content/Datasets/animal_data/train_beg.zip` 
 
-# To unzip test_beg.zip
-!unzip /content/Datasets/animal_data/test_beg.zip`
+## To unzip test_beg.zip
+`!unzip /content/Datasets/animal_data/test_beg.zip`
